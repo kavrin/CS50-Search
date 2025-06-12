@@ -1,0 +1,29 @@
+.body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    color: rgb(31, 31, 31);
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.top_links {
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 13px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    gap: 20px;
+
+}
+
+.form_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}

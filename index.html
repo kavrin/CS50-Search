@@ -4,11 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Search</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 
-<body>
-    <h1>HELLO!</h1>
+<body class="body">
+
+    <div class="top_links">
+        <div>
+            <a aria-label="Search for Images " data-pid="2"
+                href="https://www.google.com/imghp?hl=en&amp;authuser=0&amp;ogbl" target="_top">Images</a>
+        </div>
+        <div>
+            <a aria-label="Gmail " data-pid="23" href="https://mail.google.com/mail/?authuser=0&amp;ogbl"
+                target="_top">Gmail</a>
+        </div>
+    </div>
+    <div class="form_container">
+        <form action="https://google.com/search">
+            <input type="text" name="q">
+            <input type="submit" value="Google Search">
+        </form>
+    </div>
+
 </body>
 
 </html>
