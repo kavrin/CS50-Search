@@ -1,0 +1,28 @@
+h1 {
+    color: brown;
+    text-align: center;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+}
+
+div {
+    border: 3px solid gold;
+    background-color: orange;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    margin: 20px;
+}
+
+#foo {
+    color: blue;
+}
+
+.baz {
+    color: aqua;
+}
